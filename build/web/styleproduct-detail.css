@@ -1,0 +1,89 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 15, 2025, 11:12:07 PM
+    Author     : ADMIN
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    background: #222;
+    padding: 15px 20px;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Banner */
+.banner {
+    text-align: center;
+    background: url('images/banner.jpg') no-repeat center center/cover;
+    padding: 60px 20px;
+}
+
+.banner .btn {
+    background: #ff6600;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+h1 {
+    margin-left: 33%;
+}
+.info{
+    display: flex;
+    
+}
+.presence{
+    align-self: center;
+}
+.info img{
+    width: 50%;
+    margin-top: 55px
+}
+.stat p {
+    margin-top: 56px;
+    font-size: 25px;
+    margin-left: 5%;
+}
+.button{
+    margin-left: -318%;
+    margin-top: 450px;
+}
+.button buy-now:hover {
+    background-color: #e65c00;
+}

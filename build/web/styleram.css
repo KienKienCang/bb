@@ -1,0 +1,121 @@
+/* Định dạng chung */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    padding: 15px 20px;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Danh sách RAM */
+.ram-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ram-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ram-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.ram-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.ram-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.ram-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.ram-item p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.buy-now {
+    background-color: #ff6600;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.buy-now:hover {
+    background-color: #e65c00;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
+    margin-top: 20px;
+}
+.product img {
+    width: 150px; /* Giảm kích thước ảnh */
+    height: auto; /* Giữ tỷ lệ ảnh */
+    object-fit: cover; /* Cắt ảnh để vừa khung */
+    border-radius: 8px; /* Bo tròn góc ảnh */
+}

@@ -1,0 +1,119 @@
+/* Reset mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    padding: 15px 20px;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+/* Checkout Container */
+.checkout-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form nhập địa chỉ */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Bảng giỏ hàng */
+.cart-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.cart-table th, .cart-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.cart-table th {
+    background-color: #ff6600;
+    color: white;
+}
+
+.total-row td {
+    font-weight: bold;
+}
+
+/* Nút Đặt hàng */
+.checkout-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #ff6600;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkout-btn:hover {
+    background-color: #e65c00;
+}
